@@ -23,7 +23,7 @@ function doWhileLoop(array) {
     return Math.random() >= 0.5;
   }
   do{
-    array.pop();
+    console.log("I run once regardless.")
   } while (array.length > -1 && maybeTrue());
     return array;
 }
