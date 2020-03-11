@@ -19,8 +19,9 @@ function whileLoop(n){
 }
 
 function doWhileLoop(num) {
-  return Math.random() >= 0.5;
-  
+  function maybeTrue() {
+    return Math.random() >= 0.5;
+  }
   do{
     array.pop();
   } while (array.length > -1 && maybeTrue)
