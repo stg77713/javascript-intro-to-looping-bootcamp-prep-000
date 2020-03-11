@@ -24,6 +24,6 @@ function doWhileLoop(array) {
   }
   do{
     console.log("I run once regardless.")
-  } while (array.length > -1 && maybeTrue());
+  } while (array.length > 0 && maybeTrue());
     return array;
 }
